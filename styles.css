@@ -1,0 +1,149 @@
+*{
+    font-family: 'Roboto';
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+.left-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+.right-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+.yt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    padding:0px 30px;
+}
+.searchbar{
+    display: flex;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    border: 1px solid #cccccc;
+    box-shadow: #f8f8f8;
+    overflow: hidden;
+    flex-grow: 1;
+    flex-shrink: 1;
+    justify-content: space-between;
+}
+.Center{
+    width: 650px;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: space-between;
+}
+.searchbar input[type="text"]{
+    border: 0px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding-left: 17px;
+    font-size: 17px;
+    font-weight:lighter;
+    width: 100%;
+}
+.search{
+    background-color: #f8f8f8;
+    width: 60px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #d3d3d3;
+}
+.SideBar{
+    display: flex;
+    flex-direction: column;
+}
+.bodyVideo{
+    display: flex;
+}
+.SideBar{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.item{
+    background-color:#f2f2f2 ;
+    border-radius: 7px;
+    height: 15px;
+    margin-right:15px;
+    padding: 8px 12px;
+    display: flex;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+.Categories{
+    padding-top: 20px;
+    display: flex;
+    overflow-x: auto;
+    width:1250px;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    margin-bottom: 20px;
+}
+span{
+    white-space: nowrap;
+    font-weight:bolder;
+}
+
+.V{
+    display: inline-block;
+}
+body{
+    overflow: hidden;
+}
+.videosM{
+    height: 600px;
+    overflow: scroll;
+    scrollbar-width: none;
+    padding-top: 20px;
+}
+.item:hover{
+    cursor: pointer;
+    background-color:#dddcdc
+}
+.mic:hover{
+    cursor: pointer;
+    background-color:#dddcdc
+}
+.mic{
+    margin-left:10px;display: flex;justify-content: center; align-items: center; background-color: #f2f2f2;border-radius: 50%; width: 40px;height: 40px
+}
+.newitem:hover{
+    cursor: pointer;
+    background-color:#dddcdc
+}
+.newitem{
+    display: flex;justify-content: center; align-items: center;border-radius: 50%; width: 40px;height: 40px
+}
+img{
+    cursor: pointer;
+}
+.right{
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.right:hover{
+    cursor: pointer;
+    background-color:#dddcdc
+}
